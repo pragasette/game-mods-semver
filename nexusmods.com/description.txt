@@ -1,5 +1,7 @@
 [quote][b][color=#57a5cc]ℹ️[/color][/b] [b][i]This is currently a draft:[/i][/b] depending on the feedback, it may be updated into a more formal specification.[/quote]
 
+[center][url=https://github.com/pragasette/game-mods-semver]GitHub[/url][/center]
+
 [b]Guidelines[/b]
 
 [list]
