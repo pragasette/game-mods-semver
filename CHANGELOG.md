@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog], and this project adheres to
 ### Added
 
 - This changelog.
+- Readme with a draft of guidelines.
 
 
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
