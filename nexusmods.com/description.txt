@@ -1,0 +1,60 @@
+[quote][b][color=#57a5cc]ℹ️[/color][/b] [b][i]This is currently a draft:[/i][/b] depending on the feedback, it may be updated into a more formal specification.[/quote]
+
+[b]Guidelines[/b]
+
+[list]
+[*] A mod which refers to this document must declare a version for each public release using three numbers separated by dots, called respectively [i]major[/i], [i]minor[/i] and [i]patch[/i] versions.
+&#8203;
+[*] The mod can be safely updated mid-game to a newer release which has the same [i]major[/i] version: the mod author expresses the intention to keep the new release compatible with a game save created using a previous release of the mod having the same [i]major[/i] version.
+&#8203;
+[*] A change in the [i]major[/i] version means compatibility with a previous version is not guaranteed: a game save created using a previous release of the mod will not work as expected with the newer version; a new game is required to use the newer version.
+&#8203;
+[*] A change in the [i]minor[/i] version means new features are added in a compatible fashion: it's safe to update mid-game.
+&#8203;
+[*] A change in the [i]patch[/i] version means only bugs are fixed, no new feature is added and compatibility is preserved: it's safe to update mid-game.
+&#8203;
+[*] Downgrading is not supported, unless specifically stated by the mod author.[/list]
+
+[quote][b][color=#fce100]⚠️[/color][/b] [b][i]Warning[/i][/b]
+A mod coming with a versioning scheme which looks like semantic versioning is to be assumed [b][i]NOT[/i][/b] to follow any specification, unless it explicitly refers to this document.[/quote]
+
+[b]Examples[/b]
+
+You can safely update mid-game in these cases:
+
+[list]
+[*][color=#16c60c]✔️[/color] 1.2.9 → 1.2.10;
+[*][color=#16c60c]✔️[/color] 1.2.9 → 1.3.0.[/list]
+
+You shouldn't update mid-game in the following cases, things will break and your game won't work as expected, start a new game instead:
+
+[list]
+[*][color=#f03a17]❌[/color] 1.2.9 → 2.3.0;
+[*][color=#f03a17]❌[/color] 1.2.9 → 1.2.8.[/list]
+
+
+[b]What is semantic versioning?[/b]
+
+[url=https://semver.org/]Semantic versioning[/url] is a convention used in the software development industry and is designed to make it easier to tell whether upgrading a piece of software will keep or break the compatibility with other software.
+
+It revolves around the definition of an [url=https://en.wikipedia.org/wiki/Application_programming_interface]application programming interface[/url] (API), which can be thought as a set of rules given by the software author to describe how other pieces of software can interact with it.
+
+
+[b]What is the API of a game mod?[/b]
+
+A mod can be designed as a library, a modders resource which defines a traditional API for other mods to interact with.
+
+In most cases, however, a generic mod meant for direct use by the players doesn't need to define any API.
+
+When a documented API is missing, the mod version can be linked to game save compatibility to tell if updating is supported.
+
+
+[b]Can things break?[/b]
+
+Despite of the author's intention, things break all the time: a release meant only to fix a bug, may not preserve compatibility as intended.
+
+As a good measure, always keep a backup of your save files before any update.
+
+If you notice any unexpected behavior after updating, test again using the original version you saved the game with.
+
+In case the issue appears only with the newer version, inform the author in a polite way and following their instructions to file a bug report.

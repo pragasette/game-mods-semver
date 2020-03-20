@@ -1,0 +1,1 @@
+Guidelines to let users look at the mod version number to determine whether they can update without breaking an existing game save.
