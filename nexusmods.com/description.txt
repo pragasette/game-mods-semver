@@ -58,3 +58,10 @@ As a good measure, always keep a backup of your save files before any update.
 If you notice any unexpected behavior after updating, test again using the original version you saved the game with.
 
 In case the issue appears only with the newer version, inform the author in a polite way and following their instructions to file a bug report.
+
+
+[b]License[/b]
+
+[img]https://i.creativecommons.org/l/by-sa/4.0/88x31.png[/img]
+
+This work is licensed under a [url=https://creativecommons.org/licenses/by-sa/4.0/]Creative Commons Attribution-ShareAlike 4.0 International License[/url].

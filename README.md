@@ -83,6 +83,14 @@ original version you saved the game with.
 In case the issue appears only with the newer version, inform the author in a
 polite way and following their instructions to file a bug report.
 
+## License
+
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][CC BY-SA 4.0].
+
 
 [Semantic versioning]: https://semver.org/
 [Application programming interface]: https://en.wikipedia.org/wiki/Application_programming_interface
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
